@@ -6,17 +6,34 @@ namespace ChallengesWithTestsMark8
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            throw new NotImplementedException();
+
+
+            if (num1 == num2)
+            {
+                return true;
+            }
+            
+            else
+            {
+                return false;
+            }
+
         }
+
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
+         
+            double ans = minuend - subtrahend;
+
+            return ans;
         }
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+            int ans = number1 + number2;
+
+            return ans;
         }
 
         public int GetSmallestNumber(int number1, int number2)
@@ -26,17 +43,26 @@ namespace ChallengesWithTestsMark8
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            long ans = factor1 * factor2;
+
+            return ans;
         }
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+           
+            
+            return nameOfPerson == "" ?  "Hello!" : $"Hello, {nameOfPerson}!" ; 
+
+            
         }
 
         public string GetHey()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Hey");
+            Console.ReadKey();
+            var x = "Hey";
+            return x;
         }
     }
 }
