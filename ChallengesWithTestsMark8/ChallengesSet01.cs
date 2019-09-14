@@ -69,7 +69,8 @@ namespace ChallengesWithTestsMark8
         {
 
             string x = "HEY!";
-            return x;
+            string j = "JugaThen";
+            return x + j;
         }
     }
 }
